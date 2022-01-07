@@ -1,0 +1,47 @@
+.card {
+      background-color: var(--white);
+      width: 15vw;
+      height: 24vh;
+      margin: 10px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      border: 1px ridge var(--silver);
+      text-align: center;
+      font-size: 1.2vw;
+      font-weight: bold;
+}
+
+.card-image {
+      background-color: var(--navy-med);
+      height: 8vh;
+      margin-bottom: 15px;
+      border-radius: 10px 10px 0 0;
+      text-align: center;
+      font-size: 1.5vw;
+      padding: 15px;
+      color: var(--white);
+      text-transform: capitalize;
+}
+
+.card:hover {
+      background-color: var(--gold);
+      transform: scale(1.03);
+}
+
+.card-temp-container {
+      display: flex
+}
+
+.card-temp-val {
+      margin: auto;
+}
+
+.card-icon-forecast {
+      padding: 5px;
+      height: 7vh;
+      width: 7vw;
+}
+
+.card-temp-hidden {
+      display: none;
+}

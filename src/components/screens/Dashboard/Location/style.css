@@ -1,0 +1,15 @@
+.location {
+      flex-wrap: wrap;
+      margin-right: 30vw;
+      margin-top: 1vw;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: left;
+      font-size: 1.2vw;
+      line-height: 2em;
+      font-weight: bold;
+      color: var(--black);
+      text-transform: capitalize;
+      border: 2px ridge var(--silver);
+      background-color: var(--white);
+}

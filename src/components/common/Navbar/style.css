@@ -1,0 +1,41 @@
+.navbar-wrapper {
+  height: 10vh;
+  background-color: var(--navy-med);
+  display: flex;
+  font-size: 2.5vw;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-links {
+  font-size: 1.5vw;
+  margin-top: auto;
+}
+
+a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--navy-med);
+}
+
+.navbar-header-3d {
+  text-transform: uppercase;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2);
+}

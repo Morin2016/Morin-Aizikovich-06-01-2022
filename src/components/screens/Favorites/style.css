@@ -1,0 +1,31 @@
+.favo-form-container {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      margin: 15px;
+      flex-grow: 1;
+      flex-wrap: wrap;
+      filter: drop-shadow(2px 4px 6px var(--black));
+}
+
+.favo-empty-msg {
+      display: flex;
+      margin: auto;
+      margin-top: 50px;
+      font-size: 3vw;
+      width: 70vw;
+      text-align: center;
+      word-wrap: break-word;
+      text-transform: capitalize;
+}
+
+.favor-heart-icon {
+      height: 3.5vh;
+      transform: scale3d(1.5, 1.5, 1.5);
+      transition: width 1s, height 1s;
+}
+
+.favor-heart-icon:hover {
+      height: 4.5vh;
+      transition: width 3s;
+}

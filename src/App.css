@@ -1,0 +1,31 @@
+:root {
+  --navy: #05445E;
+  --grotto: #189AB4;
+  --green: #75E6DA;
+  --light-blue: #D4F1F4;
+  --white: #ffffff;
+  --silver: #c0c0c0;
+  --light-sky: #87CEFA;
+  --blue: #1e5ca7;
+  --grey: #707070;
+  --blue-med: #518dca;
+  --light-grey: #8bb9e7;
+  --gold: #FCF6Ba;
+  --navy-med: #103055D9;
+  --grey-light: #D6DBE1;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("../src/assets/blue-sky.jpg");
+  color: var(--navy-med);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
