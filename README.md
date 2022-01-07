@@ -1,4 +1,6 @@
-Weather forecast app shows the weather of some city. Theuser should be able to search for a city and save it to favorites page. 
+Weather forecast app shows the weather of some city. 
+
+The user should be able to search for a city and save it to favorites page. 
 The home screen is composed of a search field to search a location’s weather by city name. And below it, the current weather and a 5-day forecast ofthe searched location.Favorites screen is composed of a list of favorite locations. 
 
 *Please note:*
