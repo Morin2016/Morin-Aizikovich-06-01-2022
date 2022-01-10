@@ -16,7 +16,7 @@ const ToastNotify = ({ message, show, type, setNotify }) => {
                   message,
                   {
                         position: toast.POSITION.TOP_CENTER,
-                        autoClose: 8000,
+                        autoClose: 5000,
                         closeOnClick: true,
                         closeButton: true,
                         toastId: customId,

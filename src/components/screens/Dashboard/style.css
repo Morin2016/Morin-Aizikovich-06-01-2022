@@ -3,6 +3,8 @@
       justify-content: center;
       padding: 20px;
       margin: 15px;
+      padding-bottom: 0;
+      margin-bottom: 0;
       flex-wrap: wrap;
 }
 
@@ -31,6 +33,8 @@
       cursor: pointer;
       border-radius: 10px 10px 10px 10px;
       border: 3px ridge var(--silver);
+      height: 5vh;
+      width: 10vw;
 }
 
 .dash-btn:disabled {
@@ -41,18 +45,20 @@
 
 .dash-form-btn {
       height: 5vh;
+      width: 10vw;
       font-size: 1.3vw;
-      margin-left: 10px;
+      cursor: default;
 }
 
 .dash-fav-btn {
-      height: 4vh;
+      height: 5vh;
       font-size: 1vw;
       margin-left: 30vw;
-      margin-top: 1vw;
+      margin-bottom: 3vw;
+      width: 15vw;
 }
 
-button:hover {
+.dash-fav-btn:hover {
       background: var(--gold);
       color: var(--blue);
 }
@@ -64,6 +70,7 @@ button:hover {
       border-radius: 10px;
       border: 4px ridge var(--silver);
       margin: 25px;
+      margin-top: 10vh;
       flex-wrap: wrap;
       filter: drop-shadow(2px 4px 6px var(--black));
 }
@@ -81,7 +88,7 @@ button:hover {
 }
 
 .dash-description {
-      margin-top: 60px;
+      margin-top: 80px;
       font-size: 2vw;
       width: 70vw;
       text-align: center;
@@ -111,9 +118,38 @@ button:hover {
 .dash-loader {
       display: flex;
       justify-content: center;
-      z-index: -1;
+      z-index: 3;
+      position: relative;
 }
 
 .dash-heart-icon {
       height: 3.5vh;
+}
+
+.dash-suggestion-container {
+      display: flex;
+      justify-content: center;
+      z-index: 2;
+      background: var(--white);
+      position: fixed;
+      width: -webkit-fill-available;
+      margin-left: 21vw;
+      margin-right: 31vw;
+      border-radius: 10px;
+}
+
+.dash-ul {
+      list-style-type: none
+}
+
+.dash-suggestion {
+      cursor: pointer;
+      height: 3vh;
+      width: 30vw;
+      font-size: 1.5vw;
+      text-align: left;
+}
+
+.dash-suggestion:hover {
+      background-color: var(--silver);
 }

@@ -15,13 +15,13 @@ const Favorites = () => {
       const [favoritesData, setFavoritesData] = useState([])
       const [loading, setLoading] = useState(false)
 
-      const heartIcon = <img src={require('../../../assets/heart-exclamation.icon')} className='favor-heart-icon' />
-
       const [notify, setNotify] = useState({
             show: false,
             message: false,
             type: ''
       })
+
+      const heartIcon = <img src={require('../../../assets/heart-exclamation.icon')} className='favor-heart-icon' />
 
       useEffect(() => {
             fetchFavoriteData()
@@ -67,9 +67,10 @@ const Favorites = () => {
                         type={notify.type}
                   />
                   <section className='favo-form-container'>
-                        {favoritesData !== undefined ? favoritesData.map(favoriteItem => {
+                        {favoritesData !== undefined ? favoritesData.map((favoriteItem, index) => {
                               return (
                                     <Card
+                                          key={index}
                                           favoriteName={favoriteItem[0].city}
                                           maxTemp={favoriteItem[0].data?.Temperature?.Imperial?.Value}
                                           minTempHidden={true}
